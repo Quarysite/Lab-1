@@ -23,10 +23,8 @@ CMAIN:
 ;c: DW 0x0016
 ;    mov ax, 8
 ;    mov bx, 22
-;    mov dx, 0
+;    mov сx, 14
 ;    mul bx
-;    mov bx, 14
-;    sub ax, bx
-;    mov bx, 22
-;    div bx
-    
+;    sub ax, cx
+;    xor dx,dx
+;    idiv bx
